@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const AppVault = () => {
     const [activeTab, setActiveTab] = useState('all');
+    const navigate = useNavigate();
 
     return (
         <div className="vault-container fade-in-up">
@@ -131,7 +133,7 @@ const AppVault = () => {
                             <div className="blueprint-content">
                                 <h4>Target Audience Matrix</h4>
                                 <p>Visual separation of primary and secondary markets.</p>
-                                <button className="btn-glow-small">REVIEW MATRIX</button>
+                                <button className="btn-glow-small" onClick={() => navigate('/app/matrix')}>REVIEW MATRIX</button>
                             </div>
                         </div>
                     </div>

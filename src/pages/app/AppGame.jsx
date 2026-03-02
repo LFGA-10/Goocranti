@@ -11,7 +11,7 @@ const AppGame = () => {
                 </div>
                 <div className="header-actions">
                     <a href="http://iptycoon-game.seeles.ai/" target="_blank" rel="noopener noreferrer" className="btn-glow-small" style={{ textDecoration: 'none' }}>
-                        <span style={{ fontSize: '1.2rem', marginRight: '0.5rem' }}>⤢</span> EXTERNAL WINDOW
+                        <span style={{ fontSize: '1.2rem', marginRight: '0.5rem' }}>⤢</span> FULL SCREEN
                     </a>
                 </div>
             </header>
