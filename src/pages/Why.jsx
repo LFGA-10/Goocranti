@@ -16,10 +16,9 @@ const WhyPage = () => {
                 {/* Hero Section */}
                 <section className="why-hero text-center">
                     <h1 className="epic-heading">
-                        WE BUILD WHAT OTHERS DON'T SEE.<br />
-                        TECHNOLOGY SHOULD MEAN SOMETHING.<br />
-                        INNOVATION WITHOUT PURPOSE IS NOISE.<br />
-                        <span className="text-teal">WE DON'T JUST SHIP CODE. WE SHAPE FUTURES.</span>
+                        WE DON'T JUST SHIP CODE<br />
+                        WE VIOLENTLY PROTECT IDEAS AND SHAPE THE ULTIMAATE VECTOR OF A STARTUP<br />
+                        <span className="text-teal">PROTECT YOUR IDEA. SECURE YOUR FUTURE</span>
                     </h1>
                     <p className="hero-description">
                         Goocranti was created because too many ideas die in confusion. <br />
@@ -77,7 +76,7 @@ const WhyPage = () => {
 
                 .app-overlay-dark {
                     position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-                    background: linear-gradient(135deg, rgba(2, 17, 16, 0.85) 0%, rgba(0,0,0,0.7) 100%);
+                    background: linear-gradient(135deg, rgba(2, 32, 27, 0.9) 0%, rgba(1, 17, 14, 0.95) 100%);
                     backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
                     z-index: 1;
                 }
@@ -88,9 +87,14 @@ const WhyPage = () => {
                     transform: translate(-50%, -50%);
                     font-size: clamp(8rem, 20vw, 25rem);
                     font-family: var(--font-impact);
-                    color: rgba(255, 255, 255, 0.05); /* Very subtle */
+                    color: rgba(20, 184, 166, 0.1);
                     text-align: center; white-space: nowrap; line-height: 0.8; letter-spacing: -6px;
                     z-index: 2; pointer-events: none;
+                    text-transform: uppercase;
+                    background: linear-gradient(to bottom, rgba(20, 184, 166, 0.3), transparent);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
                 }
 
                 .content-wrapper {

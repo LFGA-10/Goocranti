@@ -252,24 +252,27 @@ const Chapter2 = () => (
 );
 
 const Marquee = () => (
-    <div className="marquee-container" style={{ padding: '4rem 0' }}>
+    <div className="marquee-container" style={{ padding: '4rem 0', margin: '4rem 0', background: 'transparent' }}>
         <div className="marquee">
             <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
         </div>
-        <div className="marquee reverse-marquee" style={{ color: 'var(--primary-teal)' }}>
-            <span>STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT</span>
-        </div>
-        <div className="marquee">
+        <div className="marquee reverse-marquee" style={{ color: 'rgba(255,255,255,0.7)', marginLeft: '-10%' }}>
             <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
         </div>
-        <div className="marquee reverse-marquee" style={{ color: 'var(--primary-teal)' }}>
-            <span>STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT</span>
-        </div>
-        <div className="marquee">
+        <div className="marquee" style={{ color: 'rgba(255,255,255,0.3)', marginLeft: '-20%' }}>
             <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
         </div>
-        <div className="marquee reverse-marquee" style={{ color: 'var(--primary-teal)' }}>
-            <span>STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT EXECUTE DEPLOY STRATEGY PROTECT</span>
+        <div className="marquee reverse-marquee" style={{ color: 'rgba(255,255,255,0.8)', marginLeft: '-5%' }}>
+            <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
+        </div>
+        <div className="marquee" style={{ color: '#fff', marginLeft: '-15%' }}>
+            <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
+        </div>
+        <div className="marquee reverse-marquee" style={{ color: 'rgba(255,255,255,0.5)', marginLeft: '-25%' }}>
+            <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
+        </div>
+        <div className="marquee" style={{ color: 'rgba(255,255,255,0.2)', marginLeft: '-10%' }}>
+            <span>GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI GOOCRANTI</span>
         </div>
     </div>
 );
@@ -318,7 +321,7 @@ const WhatPage = () => {
     return (
         <div style={{ background: '#000', color: '#fff' }}>
             <Hero />
-            <div style={{ background: 'linear-gradient(to bottom, #000, #041b18)' }}>
+            <div style={{ background: 'linear-gradient(to bottom, #000, #02201b, #01110e)' }}>
                 <Chapter1 />
                 <Chapter2 />
                 <Marquee />

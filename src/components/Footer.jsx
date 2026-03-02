@@ -7,8 +7,8 @@ const Footer = () => (
         <div className="footer-top">
             <div className="footer-brand">
                 <h3>Build smarter. Protect earlier. <br />Launch stronger.</h3>
-                <NavLink to="/signup" className="btn-primary" style={{ background: 'transparent', border: '1px solid rgba(255, 255, 255, 0.2)', marginBottom: '1.5rem', color: '#fff', display: 'inline-block', textDecoration: 'none' }}>GET STARTED</NavLink>
-                <NavLink to="/schedule" className="btn-primary" style={{ marginLeft: '1rem', background: 'transparent', border: '1px solid rgba(255, 255, 255, 0.2)', color: '#fff', display: 'inline-block', textDecoration: 'none' }}>SCHEDULE A CALL</NavLink>
+                <NavLink to="/schedule" className="btn-primary" style={{ background: 'transparent', border: '1px solid var(--primary-teal)', marginBottom: '1.5rem', marginRight: '1rem', color: '#fff', display: 'inline-block', textDecoration: 'none' }}>SCHEDULE</NavLink>
+                <NavLink to="/signup" className="btn-primary" style={{ background: 'var(--primary-teal)', border: 'none', color: '#000', display: 'inline-block', textDecoration: 'none' }}>BEGIN THE JOURNEY</NavLink>
                 <p className="footer-subtext">Think creatively. Protect what's yours.</p>
             </div>
             <div className="footer-links-wrapper" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
