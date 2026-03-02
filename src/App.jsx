@@ -20,6 +20,7 @@ import AppHome from './pages/app/AppHome';
 import AppQuestions from './pages/app/AppQuestions';
 import AppGame from './pages/app/AppGame';
 import AppProfile from './pages/app/AppProfile';
+import AppMatrix from './pages/app/AppMatrix';
 import { useLocation } from 'react-router-dom';
 
 function AppContent() {
@@ -47,6 +48,7 @@ function AppContent() {
           <Route path="questions" element={<AppQuestions />} />
           <Route path="game" element={<AppGame />} />
           <Route path="profile" element={<AppProfile />} />
+          <Route path="matrix" element={<AppMatrix />} />
         </Route>
       </Routes>
       {!hideLayout && <Footer />}

@@ -27,7 +27,7 @@ const IntroPage = () => {
                         We ask a few critical questions to map your strategic foundation. Every architecture is unique, and precise execution demands absolute clarity on your objectives.
                     </p>
                     <p className="intro-text">
-                        Your data dictates our response—whether it’s forming an identity, architecting an MVP, or deploying full aggressive strategy—so you are never issued a generic solution.
+                        Your data dictates our response, whether it’s forming an identity, architecting an MVP, or deploying full aggressive strategy, so you are never issued a generic solution.
                     </p>
                     <p className="intro-text last-text">
                         This sequence is brief. It ensures everything proceeding this moment is smarter, faster, and perfectly aligned to your defense.
